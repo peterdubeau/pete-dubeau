@@ -9,14 +9,19 @@
 }
 
 .project-card{
-  margin: auto 20%
+  margin: auto 10%
 }
 
 .project-details{
   display: flex;
   flex-direction: column;
+  margin: auto 10px;
 }
 
 .project-image{
   max-height: 300px;
+}
+
+.project-title{
+  text-align: center;
 }
