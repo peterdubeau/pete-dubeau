@@ -1,0 +1,22 @@
+.card-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.image-description{
+  display: flex;
+  flex-direction: row;
+}
+
+.project-card{
+  margin: auto 20%
+}
+
+.project-details{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image{
+  max-height: 300px;
+}
