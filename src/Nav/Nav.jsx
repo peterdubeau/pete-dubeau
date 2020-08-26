@@ -6,11 +6,13 @@ export default function Nav() {
     <div className ="header">
       <h1 className ="name">Pete DuBeau</h1>
       <ul className= "nav-bar">
-        <li className="nav-buttons">Home</li>
-        <li className="nav-buttons">Projects</li>
-        <li className="nav-buttons">About</li>
-        <li className="nav-buttons">Contact</li>
+        <li className="nav-buttons"><a className="nav-buttons" href="#">Home</a></li>
+        <li className="nav-buttons"><a className="nav-buttons" href="#card-list">Projects</a></li>
+        <li className="nav-buttons"><a className="nav-buttons" id="top" href="#about-container">About</a></li>
+        <li className="nav-buttons"><a className="nav-buttons" href="#project-container">Contact</a></li>
       </ul>
     </div>
   )
 }
+
+
