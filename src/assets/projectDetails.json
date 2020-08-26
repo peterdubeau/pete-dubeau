@@ -1,7 +1,7 @@
 [
   {
     "title": "Beernoculars",
-    "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598372157/portfolio/beernoculars_jq3ghl.png",
+    "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598449073/portfolio/Beernocular-med_qnr7dl.png",
     "description": "Beernoculars is application that gives users a list of beers they may like based on a few search criteria (style, ABV, ect.) The page will then display up to 4 beers that match the users request.",
     "toolsUsed": "JavaScript",
     "websiteURL": "http://beernoculars.surge.sh/",
@@ -19,12 +19,13 @@
   },
   {
     "title": "Next Round",
-    "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598372157/portfolio/next-round_umzihp.png",
-    "description": "Next Round is an app that will allow users to track who has and has not completed a task. A user who create a room are given admin privilege as well as a 5 letter access code. The admin can then share that code with their friends to easily join the room. When a user completes the task (ie buying a round of drinks at the bar) their name is removed from the pool. Once all users have completed the task, all user names are placed back in the task pool to repeat the process. Wether it be buying rounds of drinks at the bar or completing household chores, Next Round will make sure everybody chips in.",
+    "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598454362/portfolio/Next-round-med_hwghzy.png",
+    "description": "Next Round is an app that allows users to track who has and has not completed a given task. When a user completes the task (i.e. buying a round of drinks at the bar) their name is removed from the pool. Once all users have completed the task, all user names are placed back in the task pool to repeat the process. Wether it be buying rounds of drinks at the bar or completing household chores, Next Round will make sure everybody chips in.",
     "toolsUsed": "JavaScript, ReactJS, Ruby, Ruby on Rails",
     "websiteURL": "http://next-round.surge.sh/",
     "githubURL": "https://github.com/peterdubeau/rookies-and-dragons",
     "type": "Full Stack App"
+
   }
   
 ]
