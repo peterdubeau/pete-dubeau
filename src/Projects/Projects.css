@@ -55,3 +55,18 @@ p{
   font-style: italic;
   color: royalblue;
 }
+
+@media screen and (max-width: 480px) {
+  .card-card{
+    display: flex;
+    flex-direction:column;
+  }
+  
+  .image-description{
+    flex-direction: column;
+  }
+
+  .project-image{
+    max-width: 80%;
+  }
+}
