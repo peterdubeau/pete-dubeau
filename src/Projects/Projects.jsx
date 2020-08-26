@@ -4,7 +4,7 @@ import projectDetails from '../assets/projectDetails.json'
 
 export default function Projects() {
   return (
-    <article className="card-container">
+    <article className="card-container" id="card-list">
       {projectDetails.map(project =>
         <div className='project-card'>
           <div className="image-description">

@@ -1,4 +1,16 @@
 body{
   font-family: 'Open Sans', sans-serif;
-  /* background-color: #50a2ee; */
+  background-color: #50a2ee; 
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target:before {
+  display: block;
+  height: 100px;
+  margin: -100px 0 0;
+}
+
+

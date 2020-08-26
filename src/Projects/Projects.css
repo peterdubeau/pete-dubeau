@@ -3,6 +3,7 @@ p{
 }
 
 .card-container{
+  padding-top: 100px;
   margin-top: 500px;
   display: flex;
   flex-direction: column;
@@ -29,8 +30,10 @@ p{
 }
 
 .project-image{
-  max-height: 400px;
+  max-width: 500px;
   border-radius: 20px;
+  align-self: center;
+  border: 1px solid black;
 }
 
 .project-image:hover{
@@ -38,7 +41,7 @@ p{
     transition: box-shadow .3s,-webkit-transform .3s;
     transition: box-shadow .3s,transform .3s;
     transition: box-shadow .3s,transform .3s,-webkit-transform .3s;
-  box-shadow: 5px 5px lightgrey;
+  box-shadow: 5px 5px grey;
 }
 
 .project-title{
