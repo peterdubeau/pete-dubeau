@@ -1,0 +1,49 @@
+label{
+  margin: 10px auto;
+}
+
+.email{
+  width: 40%;
+}
+
+.forms{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input.message{
+  justify-content: top;
+  height: 300px;
+  width: 40%;
+}
+::placeholder{
+  text-align: top;
+}
+
+.submit{
+  margin: 20px;
+  font-size: 20px;
+}
+
+.work-together{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+.message, .email{
+  box-shadow: 5px 5px 5px black;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  input.message{
+    width: 90%;
+  }
+  .email{
+    width: 90%;
+  }
+}

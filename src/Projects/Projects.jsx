@@ -17,7 +17,6 @@ export default function Projects() {
                 <a href={project.websiteURL}><button className="project-url">Site</button></a>
                 <a a href={project.githubURL}><button className="project-git">Github</button></a>
               </div>
-              <p className="project-tools">{project.toolsUsed}</p>
               </div>
           </div>
         </div>
