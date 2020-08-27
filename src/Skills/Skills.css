@@ -1,0 +1,10 @@
+.skills{
+  display: flex;
+  justify-content: center;
+
+}
+
+.skill-icon{
+  max-height: 50px; 
+  margin: 5px;
+}

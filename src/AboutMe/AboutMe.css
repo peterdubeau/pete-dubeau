@@ -14,3 +14,21 @@ article.project-card{
     font-size: 30px;
     margin-bottom: 60px;
 }
+
+@media screen and (max-width: 720px) {
+  .about{
+    font-size: 40px;
+  }
+  .me{
+   font-size: 20px; 
+   text-align: center;
+   padding: 2%;
+   padding-top: 5%;
+   margin-bottom: 5%;
+  }
+
+  article.project-card{
+    margin: auto;
+    margin-top: auto;
+  }
+}

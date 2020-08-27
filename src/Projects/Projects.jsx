@@ -13,9 +13,11 @@ export default function Projects() {
                 <h2 className="project-title">{project.title}</h2> 
                 <p className="project-type">{project.type}</p>
                 <p className="project-description">{project.description}</p>
-                <p className="project-url"><a href={project.websiteURL}>Check out {project.title}!</a></p>
-                <p className="project-git"><a a href={project.githubURL}>Check out {project.title} on github!</a></p>
-                <p className="project-tools">{project.toolsUsed}</p>
+              <div className="buttons">
+                <a href={project.websiteURL}><button className="project-url">Site</button></a>
+                <a a href={project.githubURL}><button className="project-git">Github</button></a>
+              </div>
+              <p className="project-tools">{project.toolsUsed}</p>
               </div>
           </div>
         </div>

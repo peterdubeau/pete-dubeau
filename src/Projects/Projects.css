@@ -2,6 +2,11 @@ p{
   margin: 5px;
 }
 
+.buttons{
+  color: black;
+  font-size: 30px;
+}
+
 .card-container{
   padding-top: 100px;
   margin-top: 500px;
@@ -50,13 +55,18 @@ p{
   font-style: italic;
 }
 
+.project-git, .project-url{
+  margin: auto 10px;
+  font-size: 20px;
+}
+
 .project-type{
   font-size: 30px;
   font-style: italic;
   color: royalblue;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   .card-card{
     display: flex;
     flex-direction:column;
@@ -66,7 +76,31 @@ p{
     flex-direction: column;
   }
 
+  .project-card{
+    margin: 20px auto;
+  }
+  
+  .card-container{
+    padding-top: auto;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
   .project-image{
     max-width: 80%;
   }
+
+  .buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+  }
+
+  .project-git, .project-url{
+    margin: auto 10px;
+    font-size: 30px;
+  }
+
 }
