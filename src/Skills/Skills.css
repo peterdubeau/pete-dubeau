@@ -1,10 +1,16 @@
 .skills{
+  margin: 10%;
   display: flex;
-  justify-content: center;
-
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .skill-icon{
-  max-height: 50px; 
-  margin: 5px;
+  height: 100px; 
+}
+
+@media screen and (max-width: 720px) {
+  .skill-icon{
+    height: 50px;
+  }
 }
