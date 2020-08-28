@@ -28,7 +28,7 @@ article.project-card{
   }
 
   article.project-card{
-    margin: auto;
+    margin: auto 2%;
     margin-top: auto;
   }
 }

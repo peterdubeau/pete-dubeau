@@ -4,6 +4,7 @@ label{
 
 .email{
   width: 40%;
+  font-size: 30px;
 }
 
 .forms{
@@ -14,12 +15,14 @@ label{
 }
 
 input.message{
-  justify-content: top;
+  font-size: 30px;
   height: 300px;
   width: 40%;
+  vertical-align: text-top;
 }
-::placeholder{
-  text-align: top;
+
+input.message::placeholder{
+
 }
 
 .submit{
@@ -42,8 +45,11 @@ input.message{
 @media screen and (max-width: 720px) {
   input.message{
     width: 90%;
+    font-size: 20px;
   }
   .email{
+    font-size: 20px;
+    height: 40px;
     width: 90%;
   }
 }
