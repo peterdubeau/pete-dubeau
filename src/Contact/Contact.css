@@ -14,16 +14,13 @@ label{
   align-items: center;
 }
 
-input.message{
+textarea{
   font-size: 30px;
   height: 300px;
   width: 40%;
   vertical-align: text-top;
 }
 
-input.message::placeholder{
-
-}
 
 .submit{
   margin: 20px;
@@ -43,7 +40,7 @@ input.message::placeholder{
 }
 
 @media screen and (max-width: 720px) {
-  input.message{
+  textarea{
     width: 90%;
     font-size: 20px;
   }
