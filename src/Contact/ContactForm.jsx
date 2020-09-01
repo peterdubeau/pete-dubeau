@@ -26,15 +26,15 @@ export default class ContactForm extends React.Component {
           className = "email"
           type="email"
           name="email"
-          placeholder="email"
+          placeholder="Email"
         />
         <label>Message:</label>
-        <input
+        <textarea
           className="message"
           type="text"
           name="message"
           placeholder="Your message"
-        />
+        ></textarea>
         {status === "SUCCESS" ? <p>Thanks! I'll be reaching out to you soon!</p> : <button className ="submit">Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
