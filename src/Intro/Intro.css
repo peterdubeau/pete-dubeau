@@ -4,6 +4,7 @@
   padding: 20px;
   background-color: rgba(0,0,0,.3);
   border-radius: 20px;
+  text-align: center;
 }
 
 .check:hover{
@@ -27,14 +28,18 @@ div.image{
   align-items: center;
 }
 
-.text{
+.intro{
   color: white; 
   font-size: 40px;
   text-align: center;
-  padding: 20px 30%;
+  padding: 20px ;
   align-self: left;
-  padding-left: 10%;
+  /* padding-left: 10%; */
   max-width: 500px;
+}
+
+.text{
+  margin-left: 15%;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -47,7 +52,12 @@ a:link, a:visited, a:hover, a:active {
     background-size: contain;
     justify-content: center;
   }
+  .intro{
+    font-size: 30px;
+  }
+  
   .text{
-    padding: 0%;
+    margin-left: 1px;;
+    padding: 2%;
   }
 }

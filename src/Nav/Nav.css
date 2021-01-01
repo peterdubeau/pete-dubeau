@@ -2,6 +2,7 @@
   position: fixed;
   overflow: hidden;
   top: 0;
+  padding: 5px;
   background-color: white;
   width: 100%;
   display: flex;
@@ -22,6 +23,8 @@
 
 .name{
   align-items: left;
+  margin-left: 20px;
+  text-overflow: hidden;
 }
 
 a.nav-buttons:link, a.nav-buttons:visited, a.nav-buttons:hover, a.nav-buttons:active {
