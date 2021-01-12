@@ -1,12 +1,33 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Projects.css'
 import projectDetails from '../assets/projectDetails.json'
 
-export default function Projects() {
+export default function Projects(props) {
+
+
+  const [display, setDisplay] = useState({
+    "Ordo Nomina": true,
+    "Beernoculars": true,
+    "Rookies and Dragons": true,
+    "Next Round": true
+  })
+  
   return (
     <article className="card-container" id="card-list">
-      {projectDetails.map(project =>
-        <div className='project-card'>
+      {props.render.map(project =>
+        <div className='project-card'
+        style={!display[project.title] ? { display: 'none' } : {}}
+        >
+          <button
+            onClick={() => setDisplay(display =>
+              ({ ...display, [project.title]: !display[project.title] }))
+            }
+            name={project.title}
+            value={display[project.title]}
+            >
+            {console.log(display[project.title])}
+            Switch
+          </button>
           <div className="image-description">
             <img className="project-image" src={project.imageURL} />
               <div className="project-details">
@@ -20,7 +41,7 @@ export default function Projects() {
               </div>
           </div>
         </div>
-      )}
+        )}
     </article>
   )
 }
