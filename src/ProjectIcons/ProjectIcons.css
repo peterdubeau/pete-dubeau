@@ -1,0 +1,69 @@
+
+.image-container, .greeting{
+  display: inherit;
+}
+
+.image{
+  height: 100px;
+  width: 100px;
+}
+
+.welcome-aura{
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 88;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, .5)
+}
+
+.welcome-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+  height: 95%;
+}
+
+.welcome-checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.welcome-container{
+  position: fixed;
+  z-index: 88;
+  height: 70vh;
+  width: 80vw;
+  top: 10%;
+  left: 10%;
+  background-color: #21072A;
+  color: #DFDF8E;
+  border: 5px solid #DFDF8E;
+  border-radius: 30px;
+  background-size: cover;
+}
+
+.welcome-info{
+  font-size: 20px;
+}
+
+.welcome-link{
+  color: inherit;
+  position: inherit;
+}
+
+@media only screen and (max-width: 450px) {
+  .welcome-container{
+    top: 5%;
+    height: 80vh;  
+  }
+
+  .check-box{
+    font-size: 12px;
+  }
+}
+

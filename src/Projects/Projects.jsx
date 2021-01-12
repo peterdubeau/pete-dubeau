@@ -3,29 +3,21 @@ import './Projects.css'
 import projectDetails from '../assets/projectDetails.json'
 
 export default function Projects(props) {
-
-
-  const [display, setDisplay] = useState({
-    "Ordo Nomina": true,
-    "Beernoculars": true,
-    "Rookies and Dragons": true,
-    "Next Round": true
-  })
   
   return (
     <article className="card-container" id="card-list">
-      {props.render.map(project =>
+      {projectDetails.map(project =>
         <div className='project-card'
-        style={!display[project.title] ? { display: 'none' } : {}}
+        style={!props.display[project.title] ? { display: 'none' } : {}}
         >
           <button
-            onClick={() => setDisplay(display =>
-              ({ ...display, [project.title]: !display[project.title] }))
+            onClick={() => props.setDisplay(display =>
+              ({ ...props.display, [project.title]: !display[project.title] }))
             }
             name={project.title}
-            value={display[project.title]}
+            value={props.display[project.title]}
             >
-            {console.log(display[project.title])}
+            {console.log(props.display[project.title])}
             Switch
           </button>
           <div className="image-description">
