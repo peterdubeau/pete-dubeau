@@ -9,8 +9,16 @@ export default function ProjectIcons(props) {
     "Ordo Nomina": false,
     "Beernoculars": false,
     "Rookies and Dragons": false,
-    "Next Round": false
+    "Next Round": false,
+    intro: false
   })
+  console.log(props.show.icons)
+
+  const handleClick = (project) => {
+    setDisplay(display =>
+      ({ ...display, [project.title]: !display[project.title] }))
+    props.setShow(false)
+  }
 
   return (
     <div className='greeting'>
@@ -19,17 +27,16 @@ export default function ProjectIcons(props) {
         <div className="welcome-body">
           <h2>Click around or whatever</h2>
             <div className='image-container'>
+              {props.show.icons ? 'no' : "yes"}
               {projectDetails.map(project => 
                 <img
-                  className='image'
+                  className='project-image'
                   src={project.imageURL}
-                  onClick={() => setDisplay(display =>
-                    ({ ...display, [project.title]: !display[project.title] }))
-                  }
+                  onClick={() => handleClick(project.title)}
                   />
               )}
             </div>
-            <button onClick={() => props.show()}>Ok, got it.</button>
+            <button onClick={() => props.setShow()}>Ok, got it.</button>
             <Projects
               setDisplay={setDisplay}
               display={display}

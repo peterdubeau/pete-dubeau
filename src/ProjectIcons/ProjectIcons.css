@@ -1,9 +1,12 @@
 
 .image-container, .greeting{
-  display: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 500px;
 }
 
-.image{
+.project-image{
+  margin: auto 30px;
   height: 100px;
   width: 100px;
 }

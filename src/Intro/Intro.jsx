@@ -4,7 +4,10 @@ import './Intro.css'
 
 
 export default function Intro() {
-  const [showProjects, setShowProjects] = useState(false)
+  const [showProjects, setShowProjects] = useState({
+    greeting: true,
+    icons: true,
+  })
 
   return (
     <div className="image">
@@ -14,7 +17,10 @@ export default function Intro() {
         </h2>
           <p className ="check" onClick={() => setShowProjects(!showProjects)}><a>Check out my projects!</a></p>
       </div>
-      {showProjects ? <ProjectIcons show={setShowProjects}/> : ''}
+      {showProjects ? <ProjectIcons
+        setShow={setShowProjects}
+        show={showProjects}
+      /> : ''}
     </div>
 
   )
