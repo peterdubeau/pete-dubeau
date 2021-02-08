@@ -7,15 +7,14 @@
     "websiteURL": "https://www.ordonomina.com/",
     "githubURL": "https://github.com/peterdubeau/Ordo-Nomina",
     "type": "Full Stack Web App"
-  },
-  {
-    "title": "Beernoculars",
-    "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598449073/portfolio/Beernocular-med_qnr7dl.png",
-    "description": "Beernoculars is application that gives users a list of beers they may like based on a few search criteria (style, ABV, ect.) The page will then display up to 4 beers that match the users request.",
-    "toolsUsed": "JavaScript",
-    "websiteURL": "http://beernoculars.surge.sh/",
-    "githubURL": "https://github.com/peterdubeau/beernoculars",
-    "type": "Front End App"
+  },{
+    "title": "Field Business Advisors",
+    "imageURL": "https://fieldbusinessadvisors.com/wp-content/uploads/2020/04/logo-footer.png",
+    "description": "A website I maintain for Field Business Advisors. It helps connect people selling their businesses to potential clients. Built and Maintained on Word Press",
+    "toolsUsed": "Word Press, JavaScript",
+    "websiteURL": "https://fieldbusinessadvisors.com/",
+    "githubURL": null,
+    "type": "Word Press"
   },
   {
     "title": "Rookies and Dragons",
@@ -34,7 +33,14 @@
     "websiteURL": "http://next-round.surge.sh/",
     "githubURL": "https://github.com/peterdubeau/rookies-and-dragons",
     "type": "Full Stack App"
-
+  },{
+    "title": "Beernoculars",
+    "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598449073/portfolio/Beernocular-med_qnr7dl.png",
+    "description": "Beernoculars is application that gives users a list of beers they may like based on a few search criteria (style, ABV, ect.) The page will then display up to 4 beers that match the users request.",
+    "toolsUsed": "JavaScript",
+    "websiteURL": "http://beernoculars.surge.sh/",
+    "githubURL": "https://github.com/peterdubeau/beernoculars",
+    "type": "Front End App"
   }
-  
+
 ]

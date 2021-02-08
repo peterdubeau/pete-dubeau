@@ -15,7 +15,7 @@ export default function Projects() {
                 <p className="project-description">{project.description}</p>
               <div className="buttons">
                 <a href={project.websiteURL}><button className="project-url">Site</button></a>
-                <a a href={project.githubURL}><button className="project-git">Github</button></a>
+                {project.githubURL == null ? "" : <a a href={project.githubURL}><button className="project-git">Github</button></a> }
               </div>
               </div>
           </div>
