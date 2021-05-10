@@ -1,0 +1,59 @@
+.welcome-container{
+  position: fixed;
+  z-index: 99;
+  background-color: black;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  animation: wipe .5s ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+.welcome{
+  font-size: 28px;
+  animation: slide-in-welcome 2s ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+.pete{
+  font-size: 34px;
+  animation: slide-in-pete 2s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-welcome{
+  from {
+    margin-top: 100%;
+    color: rgba(255,255,255,0)
+  }
+  to {
+    margin-top: 10%;
+    color: rgba(255,255,255,1);
+  }
+}
+
+@keyframes slide-in-pete{
+  from {
+    margin-top: -100px;
+    color: rgba(255,255,255,0)
+  }
+  to {
+    margin-top: 20%;
+    color: rgba(255,255,255,1);
+  }
+}
+
+@keyframes wipe {
+  from {
+    height: 100vh;
+    width: 100vw
+  }
+
+  to {
+    height: 0vh;
+    width: 0vw;
+    display: hidden
+  }
+}  
