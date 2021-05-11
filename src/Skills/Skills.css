@@ -25,4 +25,8 @@
   .skill-icon{
     height: 50px;
   }
+
+  #css, #html{
+    display: none
+  }
 }

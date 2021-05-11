@@ -11,10 +11,10 @@
 }
 
 .welcome{
-  font-size: 28px;
+  color: rgba(255,255,255,0);
   animation: slide-in-welcome 2s ease-out;
-  animation-fill-mode: forwards;
   animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 .pete{

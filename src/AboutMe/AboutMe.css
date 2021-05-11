@@ -17,6 +17,11 @@
   .about{
     font-size: 40px;
   }
+
+  .about-container{
+    padding: 20% 10%; 
+  }
+
   .me{
    font-size: 20px; 
    text-align: center;
