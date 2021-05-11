@@ -36,7 +36,6 @@
 
 @keyframes slide-in-pete{
   from {
-    margin-top: -100px;
     color: rgba(255,255,255,0)
   }
   to {
