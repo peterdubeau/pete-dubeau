@@ -8,6 +8,6 @@ export default function Intro() {
         Hey, I'm Pete DuBeau, a Solutions Engineer and Full Stack Web Developer.
         <p className ="check" ><a href="#card-list">Check out my projects!</a></p>
       </h2>
-    </div>
+      </div>
   )
 }

@@ -23,9 +23,15 @@
   animation-fill-mode: forwards;
 }
 
+.text-container{
+  animation: fade-away 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 4.5s;
+}
+
 @keyframes slide-in-welcome{
   from {
-    margin-top: 100%;
+    margin-top: 30%;
     color: rgba(255,255,255,0)
   }
   to {
@@ -36,6 +42,7 @@
 
 @keyframes slide-in-pete{
   from {
+    margin-top: -100px;
     color: rgba(255,255,255,0)
   }
   to {
@@ -56,3 +63,8 @@
     display: hidden
   }
 }  
+
+@keyframes fade-away{
+  from {opacity: 1}
+  to {opacity: 0}
+}

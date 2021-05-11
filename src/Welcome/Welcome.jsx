@@ -22,8 +22,10 @@ export default function Welcome() {
 
   return (
     <div className="welcome-container">
-        <h2 className="pete" style={display}>Hey, I'm Pete </h2>
-        <h3 className='welcome' style={display}>Welcome to my portfolio!</h3>
+      <div className="text-container">
+        <h2 className="pete" >Hey, I'm Pete </h2>
+        <h3 className='welcome'>Welcome to my portfolio!</h3>
+      </div>
     </div>
   )
 }
