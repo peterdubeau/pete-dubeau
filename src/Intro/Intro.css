@@ -54,4 +54,8 @@ a:link, a:visited, a:hover, a:active {
     padding: 0;
     margin-top: 20%;
   }
+
+  .computers{
+    height: 40%;
+  }
 }

@@ -7,18 +7,7 @@ export default function AboutMe() {
     <div className="about-container">
       <div className="about-text">
       <h2 className="about">Technologies used</h2>
-        <p>Here's a few examples of tech stacks I work with.·
-        Axios
-        MondgoDB
-        Express
-        Ruby
-        Ruby on Rails
-        HTML
-        CSS
-        JavaScript
-        ReactJS
-        Git
-           GitHub</p>
+        <p>I'm skilled in modern web development including JavaScripy, React, and Ruby on Rails; Just to name a few.</p>
       </div>
         <Skills />
     </div>

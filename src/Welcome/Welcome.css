@@ -3,8 +3,8 @@
   z-index: 99;
   background-color: black;
   text-align: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   animation: wipe .5s ease-out;
   animation-fill-mode: forwards;
   animation-delay: 5s;
@@ -27,6 +27,12 @@
   animation: fade-away 1s linear;
   animation-fill-mode: forwards;
   animation-delay: 4.5s;
+}
+
+@media screen and (max-width: 720px) {
+  /* .welcome-container{
+    height: 10
+  } */
 }
 
 @keyframes slide-in-welcome{
@@ -53,8 +59,8 @@
 
 @keyframes wipe {
   from {
-    height: 100vh;
-    width: 100vw
+    height: 100%;
+    width: 100%;
   }
 
   to {

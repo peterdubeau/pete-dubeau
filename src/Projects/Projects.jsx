@@ -8,7 +8,6 @@ export default function Projects() {
       {projectDetails.map(project =>
         <div className='project-card'>
           <div className="image-description">
-            <img className="project-image" src={project.imageURL} />
               <div className="project-details">
                 <h2 className="project-title">{project.title}</h2> 
                 <p className="project-type">{project.type}</p>
@@ -18,6 +17,7 @@ export default function Projects() {
                 {project.githubURL == null ? "" : <a a href={project.githubURL}><button className="project-git">Github</button></a> }
               </div>
               </div>
+            <img className="project-image" src={project.imageURL} />
           </div>
         </div>
       )}
