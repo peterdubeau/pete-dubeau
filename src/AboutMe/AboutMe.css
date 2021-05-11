@@ -1,18 +1,12 @@
-article.project-card{
-  margin-top: 500px;
+.about-container{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .about{
   text-align: center;
-  margin-bottom: 5px;
-  font-size: 70px;
-}
-
-.me{
-    text-align: left;
-    padding: 20px 10%;
-    font-size: 30px;
-    margin-bottom: 60px;
 }
 
 @media screen and (max-width: 720px) {

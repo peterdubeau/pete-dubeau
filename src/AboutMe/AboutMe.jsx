@@ -4,11 +4,12 @@ import "./AboutMe.css";
 
 export default function AboutMe() {
   return (
-    <div id="about-container">
-      <article className="project-card" id="about">
-        <h2 className="about">About Me</h2>
+    <div className="about-container">
+      <div className="about-text">
+      <h2 className="about">Technologies used</h2>
+        <p>Here's a few examples of tech stacks I work with.</p>
+      </div>
         <Skills />
-      </article>
     </div>
   );
 }

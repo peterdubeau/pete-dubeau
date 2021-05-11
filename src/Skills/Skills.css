@@ -1,12 +1,13 @@
 .skills{
-  margin: 10%;
+  max-width: 300px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .skill-icon{
-  height: 100px; 
+  height: 50px; 
+  margin: 5px;
 }
 
 #npm, #git, #github, #nodeJs, #ruby, #html, #css, #heroku{

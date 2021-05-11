@@ -5,7 +5,7 @@ export default function Intro() {
   return (
     <div className="image">
       <div className="intro-text-container">
-        <p className="i-am">I’m a NY-based software engineer </p>
+        <h2 className="i-am">I’m a NY-based software engineer </h2>
         <p className="long">
           who leverages 8 years
           of sales and account management experience to build and implement
