@@ -10,14 +10,14 @@ import Welcome from './Welcome/Welcome'
 
 function App() {
   return (<>
-    <Welcome />
+    {/* <Welcome /> */}
     <Nav />
     <Intro />
     <AboutMe />
     <Projects />
     <Contact />
     <Footer />
-  </>);
+</>);
 }
 
 export default App;

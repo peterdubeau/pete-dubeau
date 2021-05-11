@@ -9,6 +9,17 @@
   height: 100px; 
 }
 
+#npm, #git, #github, #nodeJs, #ruby, #html, #css, #heroku{
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+#mongo{
+  -webkit-filter: sepia(100%) grayscale(100%) brightness(1000%); 
+  filter: sepia(100%) grayscale(100%) brightness(1000%);
+  
+}
+
 @media screen and (max-width: 720px) {
   .skill-icon{
     height: 50px;

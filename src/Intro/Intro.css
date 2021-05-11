@@ -1,31 +1,51 @@
 .check{
+  padding-top: 20px;
   font-size: 30px;
-  margin: 50px;
-  padding: 20px;
-
+  align-self: center;
   border-radius: 20px;
 }
 
-
-div.image{
-  background-image: url('https://res.cloudinary.com/dyrvlnond/image/upload/v1620677192/portfolio/gradienta-1LirzgcpY2c-unsplash_a43fkb.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-clip-path: polygon(0 0, 0 70%, 100% 50%, 100% 0);
-  clip-path: polygon(0 0, 0 70%, 100% 50%, 100% 0);
-  width:100%;
-  height: 15%;
-  display: flex;
-  align-items: center;
+.computers{
+  filter: invert(100%);
+  align-self: center;
+  height: 50%;
 }
 
-.text{
-  color: white; 
+.image{
+  width:100%;
+  height: 10%;
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+  background-image: url("https://res.cloudinary.com/dyrvlnond/image/upload/v1620677192/portfolio/gradienta-1LirzgcpY2c-unsplash_a43fkb.jpg");
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 70%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 70%, 100% 0);
+}
+
+.image::after{
+
+}
+
+.intro-text-container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-left: 5% 0;
+  text-align: left;
+  max-width: 60%;
+}
+
+.long{
+  font-size: 18px;
+  margin: 0px;
+  padding-top: 0;
+  margin-left: 5px;
+}
+
+.i-am{
+  font-weight: bold;
   font-size: 40px;
-  text-align: center;
   align-self: left;
-  padding-left: 10%;
-  max-width: 500px;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -34,8 +54,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 @media screen and (max-width: 720px) {
-
-  div.image{
+  .text{
+    padding: 0;
+    margin-top: 20%;
+  }
+  .image{
     -webkit-clip-path: polygon(0 0, 0 70%, 100% 50%, 100% 0);
     clip-path: polygon(0 0, 0 70%, 100% 50%, 100% 0);
   }

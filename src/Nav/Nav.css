@@ -27,7 +27,7 @@
 
 a.nav-buttons:link, a.nav-buttons:visited, a.nav-buttons:hover, a.nav-buttons:active {
   text-decoration: none;
-  color: black
+  color: white
 }
 
 @media screen and (max-width: 720px) {
