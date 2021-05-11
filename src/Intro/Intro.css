@@ -17,13 +17,14 @@
   display: flex;
   align-items: top;
   justify-content: space-around;
-  background-image: url("https://res.cloudinary.com/dyrvlnond/image/upload/v1620677192/portfolio/gradienta-1LirzgcpY2c-unsplash_a43fkb.jpg");
+  /* background-image: url("https://res.cloudinary.com/dyrvlnond/image/upload/v1620677192/portfolio/gradienta-1LirzgcpY2c-unsplash_a43fkb.jpg");
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 70%, 100% 0);
-  clip-path: polygon(0 0, 0 100%, 100% 70%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 70%, 100% 0); */
 }
 
-.image::after{
-
+.intro-container{
+  margin: 0 5%;
+  flex-direction: row;
 }
 
 .intro-text-container{
