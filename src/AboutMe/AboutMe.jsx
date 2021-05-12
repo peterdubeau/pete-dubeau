@@ -7,7 +7,7 @@ export default function AboutMe() {
     <div className="about-container">
       <div className="about-text">
       <h2 className="about">Technologies used</h2>
-        <p>I'm skilled in modern web development including JavaScripy, React, and Ruby on Rails; Just to name a few.</p>
+        <p>I'm skilled in modern web development including JavaScript, React, and Ruby on Rails; Just to name a few.</p>
       </div>
         <Skills />
     </div>

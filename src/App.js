@@ -10,7 +10,7 @@ import Welcome from './Welcome/Welcome'
 
 function App() {
   return (<>
-    <Welcome />
+    {/* <Welcome /> */}
     <Nav />
     <Intro />
     <AboutMe />

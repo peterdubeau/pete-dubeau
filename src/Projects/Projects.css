@@ -30,24 +30,19 @@ p{
 }
 
 .project-image{
-  max-width: 200px;
+  max-height: 150px;
   border-radius: 20px;
   align-self: center;
-  border: 1px solid black;
 }
 
-.project-image:hover{
-  -webkit-transition: box-shadow .3s,-webkit-transform .3s;
-    transition: box-shadow .3s,-webkit-transform .3s;
-    transition: box-shadow .3s,transform .3s;
-    transition: box-shadow .3s,transform .3s,-webkit-transform .3s;
-  box-shadow: 5px 5px grey;
-}
 
 .project-title{
   margin-top: 2px;
   font-size: 40px;
   font-style: italic;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .project-git, .project-url{
@@ -82,7 +77,7 @@ p{
   }
 
   .project-image{
-    max-width: 80%;
+    max-width: 50%;
   }
 
   .buttons{

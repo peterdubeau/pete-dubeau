@@ -24,15 +24,19 @@
 }
 
 .text-container{
-  animation: fade-away 1s linear;
+  animation: fade-away .5s linear;
   animation-fill-mode: forwards;
   animation-delay: 4.5s;
 }
 
 @media screen and (max-width: 720px) {
-  /* .welcome-container{
-    height: 10
-  } */
+  .pete{
+    font-size: 50px;
+  }
+
+  .welcome{
+    font-size: 40px;
+  }
 }
 
 @keyframes slide-in-welcome{

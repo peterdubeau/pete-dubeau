@@ -9,7 +9,7 @@ export default function Projects() {
         <div className='project-card'>
           <div className="image-description">
               <div className="project-details">
-                <h2 className="project-title">{project.title}</h2> 
+                <h2 className="project-title">{project.title}<img className="project-image" src={project.imageURL} /></h2> 
                 <p className="project-type">{project.type}</p>
               <p className="project-description">{project.description}
                 {project.title === "Ordo Nomina" ?
@@ -25,7 +25,6 @@ export default function Projects() {
                 {project.githubURL == null ? "" : <a a href={project.githubURL}><button className="project-git">Github</button></a> }
               </div>
               </div>
-            <img className="project-image" src={project.imageURL} />
           </div>
         </div>
       )}
