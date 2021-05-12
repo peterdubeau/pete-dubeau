@@ -1,5 +1,4 @@
 .header{
-  position: absolute;
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -20,6 +19,10 @@
   font-size: 20px;
 }
 
+.nav-bar-narrow{
+  display: none;
+}
+
 .name{
   margin: 20px;
   align-items: left;
@@ -33,7 +36,6 @@ a.nav-buttons:link, a.nav-buttons:visited, a.nav-buttons:hover, a.nav-buttons:ac
 @media screen and (max-width: 720px) {
 
   .header{
-    align-items: center;
     justify-content: space-between;
   }
 
@@ -42,10 +44,12 @@ a.nav-buttons:link, a.nav-buttons:visited, a.nav-buttons:hover, a.nav-buttons:ac
     margin: auto 5%;
   }
 
-
-  #top, #contact, #projects{
+  .nav-bar{
     display: none;
   }
 
+  .nav-bar-narrow{
+    display: inline;
+  }
 
 }

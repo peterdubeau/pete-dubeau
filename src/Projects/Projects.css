@@ -39,7 +39,7 @@ p{
 .project-title{
   margin-top: 2px;
   font-size: 40px;
-  font-style: italic;
+  /* font-style: italic; */
   display: flex;
   justify-content: space-between;
   align-items: center;

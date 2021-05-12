@@ -11,6 +11,15 @@ export default function Nav() {
         <li className="nav-buttons"><a className="nav-buttons" id="top" href="#about-container">About</a></li>
         <li className="nav-buttons"><a className="nav-buttons" href="#bottom">Contact</a></li>
       </ul>
+
+      
+      <ul className= "nav-bar-narrow">
+        <li className="nav-buttons"><a className="nav-buttons" href="#">Home</a></li>
+        <li className="nav-buttons"><a className="nav-buttons" id="projects" href="#card-list">Projects</a></li>
+        <li className="nav-buttons"><a className="nav-buttons" id="top" href="#about-container">About</a></li>
+        <li className="nav-buttons"><a className="nav-buttons" href="#bottom">Contact</a></li>
+      </ul>
+
     </div>
   )
 }

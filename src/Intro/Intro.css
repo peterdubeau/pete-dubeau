@@ -63,5 +63,6 @@ a:link, a:visited, a:hover, a:active {
   .intro-text-container{
     min-width: 600px;
     padding-left: 20px;
+    padding-top: 20px;
   }
 }
