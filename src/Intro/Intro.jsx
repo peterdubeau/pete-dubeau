@@ -14,7 +14,7 @@ export default function Intro() {
           technical issues and developing customized solutions that speak to the
           heart of customers needs.
         </p>
-      <a href="#card-list"><p className="check">
+        <a href="#card-list"><p className="check">
         Check out my projects!
       </p></a>
       </div>

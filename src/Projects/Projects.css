@@ -30,7 +30,7 @@ p{
 }
 
 .project-image{
-  max-width: 500px;
+  max-width: 200px;
   border-radius: 20px;
   align-self: center;
   border: 1px solid black;
@@ -67,7 +67,7 @@ p{
   }
   
   .image-description{
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .project-card{
