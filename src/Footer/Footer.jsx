@@ -4,7 +4,7 @@ import './Footer.css'
 export default function Footer() {
   return (
     <div>
-      <ul className="footer">
+      <ul className="footer" style={{backgroundColor: "black"}}>
         <li className="contact" id="name">Peter DuBeau 2020</li>
         <div className="icon-container">
           <li className="contact"><a href="https://github.com/peterdubeau"><img className="footer-icons" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1598307716/Rookies%20and%20Dragons/github-icon-logo-png-transparent_i2ytsp.png"/></a></li>  

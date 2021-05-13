@@ -16,11 +16,16 @@ p{
 .image-description{
   display: flex;
   flex-direction: row;
+  max-width: 40%;
 }
 
 .project-card{
-  margin: 50px 10%;
+  margin: 100px 3%;
   padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* clip-path: polygon(0% 20%, 0% 100%, 100% 80%, 100% 0%); */
 }
 
 .project-details{
@@ -31,8 +36,6 @@ p{
 
 .project-image{
   max-height: 150px;
-  border-radius: 20px;
-  align-self: center;
 }
 
 
@@ -40,9 +43,10 @@ p{
   margin-top: 2px;
   font-size: 40px;
   /* font-style: italic; */
-  display: flex;
+  display: inline-block;
+  /* flex-direction: column; */
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 .project-git, .project-url{
@@ -53,6 +57,10 @@ p{
 .project-type{
   font-size: 30px;
   font-style: italic;
+}
+
+.site-gif{
+  max-width: 500px;
 }
 
 @media screen and (max-width: 720px) {

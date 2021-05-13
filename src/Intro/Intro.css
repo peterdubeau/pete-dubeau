@@ -27,7 +27,7 @@
 .intro-text-container{
   display: flex;
   flex-direction: column;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 5% 0;
   text-align: left;
   max-width: 60%;
