@@ -18,7 +18,7 @@ export default function Intro() {
         Check out my projects!
       </p></a>
       </div>
-      <img className="computers" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1620739701/portfolio/compy_txpnh4.webp" />
+      <img className="computers" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1620922647/portfolio/App_Developing_ohnztd.png"/>
     </div>
   );
 }

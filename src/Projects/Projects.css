@@ -6,8 +6,9 @@ p{
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 30%;
+  height: 40%;
   background-color: black;
+  -webkit-clip-path: polygon(0% 30%, 0% 100%, 100% 50%, 100% 0%);
   clip-path: polygon(0% 30%, 0% 100%, 100% 50%, 100% 0%);
   margin-bottom: 10%;
 }
@@ -44,18 +45,17 @@ p{
 }
 
 .project-image{
-  max-height: 150px;
+  max-height: 100px;
+  padding-left: 20px;
 }
 
 
 .project-title{
   margin-top: 2px;
-  font-size: 40px;
-  /* font-style: italic; */
-  display: inline-block;
-  /* flex-direction: column; */
-  justify-content: space-between;
+  display: flex;
+  align-items: center;
   align-items: left;
+  white-space: nowrap;
 }
 
 .project-git, .project-url{
@@ -70,6 +70,7 @@ p{
 
 .site-gif{
   max-width: 500px;
+
 }
 
 @media screen and (max-width: 720px) {

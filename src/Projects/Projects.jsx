@@ -11,9 +11,8 @@ export default function Projects() {
           <div className="image-description">
             <div className="project-details">
               <h2 className="project-title">
+                {project.title}
                 <img className="project-image" src={project.imageURL} />
-                <br/>
-                <span>{project.title}</span>
               </h2>
               <p className="project-type">{project.type}</p>
               <p className="project-description">

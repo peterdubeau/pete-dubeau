@@ -6,9 +6,9 @@
 }
 
 .computers{
-  filter: invert(100%);
   align-self: center;
-  height: 50%;
+  height: 300px;
+  /* justify-content: center; */
 }
 
 .image{
@@ -30,7 +30,7 @@
   padding-top: 100px;
   padding-left: 5% 0;
   text-align: left;
-  max-width: 60%;
+  max-width: 30%;
 }
 
 .long{
