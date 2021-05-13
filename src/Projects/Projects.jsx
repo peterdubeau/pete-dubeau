@@ -7,6 +7,7 @@ export default function Projects() {
     <article className="card-container" id="card-list">
       {projectDetails.map((project) => (
         <div className="project-card">
+          <div className="black-strip"></div>
           <div className="image-description">
             <div className="project-details">
               <h2 className="project-title">
