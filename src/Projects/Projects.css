@@ -65,7 +65,6 @@ p{
 
 .project-type{
   font-size: 30px;
-  font-style: italic;
 }
 
 .site-gif{
@@ -74,6 +73,11 @@ p{
 }
 
 @media screen and (max-width: 720px) {
+
+.black-strip{
+  width: 150vw;
+}
+
   .card-card{
     display: flex;
     flex-direction:column;
@@ -81,10 +85,7 @@ p{
   
   .image-description{
     flex-direction: column-reverse;
-  }
-
-  .project-card{
-    margin: 20px 2%;
+    max-width: 100%;
   }
   
   .card-container{
@@ -98,6 +99,10 @@ p{
     max-width: 50%;
   }
 
+  .project-title{
+    white-space: normal;
+  }
+
   .buttons{
     display: flex;
     justify-content: space-around;
@@ -109,5 +114,12 @@ p{
     font-size: 30px;
   }
 
+  .site-gif{
+    display: none;
+  }
+
+  .card-list{
+    min-width: 100%;
+  }
 
 }

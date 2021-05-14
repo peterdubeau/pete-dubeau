@@ -48,7 +48,8 @@
     "type": "Full Stack App"
   },{
     "title": "Beernoculars",
-    "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598449073/portfolio/Beernocular-med_qnr7dl.png",
+    "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620950126/portfolio/Site%20icons/kissclipart-beer-can-icon-clipart-fizzy-drinks-beer-cider-495943f758bf74fa_btkqem.png",
+    "siteGif": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598449073/portfolio/Beernocular-med_qnr7dl.png",
     "description": "Beernoculars is a web-app that gives users a list of beers they may like based on a few search criteria (style, ABV, ect.) The page will then display up to 4 beers that match the user's request.",
     "toolsUsed": "JavaScript",
     "websiteURL": "http://beernoculars.surge.sh/",
