@@ -6,10 +6,10 @@ p{
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 40%;
+  height: 60%;
   background-color: black;
   -webkit-clip-path: polygon(0% 30%, 0% 100%, 100% 50%, 100% 0%);
-  clip-path: polygon(0% 30%, 0% 100%, 100% 50%, 100% 0%);
+  clip-path: polygon(0% 30%, 0% 100%, 100% 20%, 100% 0%);
   margin-bottom: 10%;
 }
 
@@ -55,7 +55,7 @@ p{
   display: flex;
   align-items: center;
   align-items: left;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .project-git, .project-url{
@@ -75,7 +75,7 @@ p{
 @media screen and (max-width: 720px) {
 
 .black-strip{
-  width: 150vw;
+  width: 180vw;
 }
 
   .card-card{
