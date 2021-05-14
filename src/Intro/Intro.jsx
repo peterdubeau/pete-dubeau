@@ -1,9 +1,11 @@
 import React from "react";
+import Welcome from '../Welcome/Welcome'
 import "./Intro.css";
 
 export default function Intro() {
   return (
     <div className="image">
+              
       <div className="intro-text-container">
         <h2 className="i-am">I’m a NY-based software engineer </h2>
         <p className="long">
@@ -18,7 +20,8 @@ export default function Intro() {
         Check out my projects!
       </p></a>
       </div>
-      <img className="computers" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1620922647/portfolio/App_Developing_ohnztd.png"/>
+        <Welcome />
+        <img className="computers" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1620922647/portfolio/App_Developing_ohnztd.png"/>
     </div>
   );
 }
