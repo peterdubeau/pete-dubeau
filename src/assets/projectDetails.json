@@ -4,8 +4,8 @@
     "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1616554074/NESpectre/telemelt-2x_w5yndt.png",
     "siteGif": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620916110/portfolio/Site%20gifs/Nespectre-demo_n80qwj.gif",
     "description": "Telemelt is a web-based multi-emulator (RetroArch/libretro) designed to recreate the experience of playing console games with a single controller in a room full of friends.",
-    "toolsUsed": "",
-    "websiteURL": "https://www.telemelt.com/",
+    "toolsUsed": "JavaScript, node.js, Ruby on Rails, Websockets",
+    "websiteURL": "https://telemelt.com/",
     "type": "Collaboration with Batlab Electronics"
   },
   {

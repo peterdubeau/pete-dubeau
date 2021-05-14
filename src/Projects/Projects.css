@@ -72,6 +72,28 @@ p{
 
 }
 
+button{
+  background-color: rgba(0,0,0,0);
+  color: white; /* button text colour */
+  border: 1px solid white !important; /*button border width and color*/
+  padding: 10px 30px; /*button height and width*/
+  margin-bottom: 15px; /*space after if they end up stacked on mobile*/
+  text-align: center; /*centers the text*/
+  text-decoration: none; /*defines underline, strikethrough, etc.*/
+  display: inline-block; /*hard to explain, but required*/
+  -webkit-border-radius: 3px; /*rounds the corners, set to 0 for square (chrome/safari)*/
+  -moz-border-radius: 3px; /*rounds the corners, set to 0 for square (firefox)*/
+  border-radius: 3px; /*rounds the corners, set to 0 for square (IE)*/
+  -webkit-transition: 0.2s background-color linear, 0.2s color linear; /*speed of colour transition on hover*/
+  -moz-transition: 0.2s background-color linear, 0.2s color linear; /*speed of colour transition on hover*/
+  -o-transition: 0.2s background-color linear, 0.2s color linear; /*speed of colour transition on hover*/
+  transition: 0.2s background-color linear, 0.2s color linear /*speed of colour transition on hover*/
+}
+button:hover {
+  background-color: rgba(0,0,0,1); /*hover background color*/
+  color: #FFF !important; /*hover text color*/
+}
+
 @media screen and (max-width: 720px) {
 
 .black-strip{

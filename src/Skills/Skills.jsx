@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div className="skills">
       <img className="skill-icon" id="ruby" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1620742015/portfolio/tool-icons/B%20and%20W/Ruby_oanb34.png" />
-      <img className="skill-icon" id="css" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1620742015/portfolio/tool-icons/B%20and%20W/css-solid_xxpoqz.png" />
+      <img className="skill-icon" id="wordpress" style={{filter: "invert(100%)"}} src="https://res.cloudinary.com/dyrvlnond/image/upload/v1621013448/portfolio/tool-icons/wordpress_ozcxr2.png" />
       <img className="skill-icon" id="html" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1620742015/portfolio/tool-icons/B%20and%20W/html-solid_zz3hsz.png" />
       <img className="skill-icon" id="npm" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1598456860/portfolio/tool-icons/npmicon_wmoxji.svg" />
       <img className="skill-icon" id="nodeJs" src="https://res.cloudinary.com/dyrvlnond/image/upload/v1620742015/portfolio/tool-icons/B%20and%20W/nodejs-icon-1_pcpsvm.png" />
