@@ -1,10 +1,10 @@
 body{
   font-family: "sohne-var","Helvetica Neue","Arial",sans-serif;
   background-color:black; 
-  display: flex;
-  background-image: url("https://res.cloudinary.com/dyrvlnond/image/upload/v1620677192/portfolio/gradienta-1LirzgcpY2c-unsplash_a43fkb.jpg");
-  background-size: cover;
+  display: contain;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to bottom right, #042069, #b00b69);
 }
 
 html {

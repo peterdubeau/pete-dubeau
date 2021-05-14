@@ -1,10 +1,8 @@
 .welcome-container{
-  position: fixed;
-  z-index: 99;
-  background-color: black;
-  text-align: center;
-  height: 100%;
-  width: 100%;
+  text-align: right;
+  position: absolute;
+  top: 200px; right: 10%;
+
   animation: wipe .5s ease-out;
   animation-fill-mode: forwards;
   animation-delay: 5s;

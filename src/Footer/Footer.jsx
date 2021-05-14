@@ -4,7 +4,7 @@ import './Footer.css'
 export default function Footer() {
   return (
     <div>
-      <ul className="footer" style={{backgroundColor: "black"}}>
+      <ul className="footer">
         <li className="contact" id="name">Peter DuBeau 2020</li>
         <div className="icon-container" id="contact">
           <li><h3>Contact:</h3> </li>
