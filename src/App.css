@@ -1,9 +1,8 @@
 body{
   font-family: "sohne-var","Helvetica Neue","Arial",sans-serif;
   background-color:black; 
-  display: contain;
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  background-size: 200%;
   background-image: linear-gradient(to bottom right, #042069, #b00b69);
 }
 
