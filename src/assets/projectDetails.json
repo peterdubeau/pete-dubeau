@@ -4,7 +4,7 @@
     "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1616554074/NESpectre/telemelt-2x_w5yndt.png",
     "siteGif": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620916110/portfolio/Site%20gifs/Nespectre-demo_n80qwj.gif",
     "description": "Telemelt is a web-based multi-emulator (RetroArch/libretro) designed to recreate the experience of playing console games with a single controller in a room full of friends.",
-    "toolsUsed": "JavaScript, node.js, Ruby on Rails, Websockets",
+    "toolsUsed": ["react", "nodeJs", "ruby", "Websockets"],
     "websiteURL": "https://telemelt.com/",
     "type": "Collaboration with Batlab Electronics"
   },
@@ -13,7 +13,7 @@
     "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620947948/portfolio/Site%20icons/342-3427995_icosahedron-png_ohapyw.png",
     "siteGif": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620916941/portfolio/Site%20gifs/Ordo_Nomina_ftuvv3.gif",
     "description": "Ordo Nomina is an initiative tracker for D&D (or any tabletop RPG) that allows players to easily track their initiatives across a game session with real-time updates to their browser.",
-    "toolsUsed": "JavaScript, ReactJS, Ruby, Ruby on Rails, Websockets",
+    "toolsUsed": ["react", "ruby", "heroku"],
     "websiteURL": "https://www.ordonomina.com/",
     "githubURL": "https://github.com/peterdubeau/Ordo-Nomina",
     "type": "Full Stack Web App"
@@ -22,7 +22,7 @@
     "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620942456/portfolio/Site%20icons/FBA_Leaf_iqyjii.png",
     "siteGif": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620917889/portfolio/Site%20gifs/FBA_ejvjsj.png",
     "description": "A website I helped build and maintain for Field Business Advisors. It helps connect people selling their businesses to potential clients. Built and Maintained on WordPress.",
-    "toolsUsed": "Word Press, JavaScript",
+    "toolsUsed": ["wordpress", "nodeJs"],
     "websiteURL": "https://fieldbusinessadvisors.com/",
     "githubURL": null,
     "type": "Word Press"
@@ -32,7 +32,7 @@
     "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620942976/portfolio/Site%20icons/DnD_Ampersand_small_bsdici.png",
     "siteGif": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620946464/portfolio/Site%20gifs/rookies_fgri6u.gif",
     "description": "Rookies & Dragons is a website to help new Dungeons and Dragons players choose a class for their first character through pop-culture references. The users then receive detailed examples of the class along with lore, their abilities, and their traditional role in a party.",
-    "toolsUsed": "JavaScript, ReactJS, ",
+    "toolsUsed": ["nodeJs", "react"],
     "websiteURL": "https://www.rookiesanddragons.com/",
     "githubURL": "https://github.com/peterdubeau/rookies-and-dragons",
     "type": "Front End App"
@@ -42,7 +42,7 @@
     "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620948164/portfolio/Site%20icons/Arrow_mmjs0c.png",
     "siteGif": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620947226/portfolio/Site%20gifs/Nex-rouooon_p1jpog.gif",
     "description": "Next Round is an app that allows users to track who has and has not completed a given task. When a user completes the task (e.g. buying a round of drinks at the bar) their name is removed from the pool. Once all users have completed the task, all user names are placed back in the task pool to repeat the process. Whether it be buying rounds of drinks at the bar or completing household chores, Next Round will make sure everybody chips in.",
-    "toolsUsed": "JavaScript, ReactJS, Ruby, Ruby on Rails",
+    "toolsUsed": ["nodeJs", "react", "ruby"],
     "websiteURL": "http://next-round.surge.sh/",
     "githubURL": "https://github.com/peterdubeau/rookies-and-dragons",
     "type": "Full Stack App"
@@ -51,7 +51,7 @@
     "imageURL": "https://res.cloudinary.com/dyrvlnond/image/upload/v1620950126/portfolio/Site%20icons/kissclipart-beer-can-icon-clipart-fizzy-drinks-beer-cider-495943f758bf74fa_btkqem.png",
     "siteGif": "https://res.cloudinary.com/dyrvlnond/image/upload/v1598449073/portfolio/Beernocular-med_qnr7dl.png",
     "description": "Beernoculars is a web-app that gives users a list of beers they may like based on a few search criteria (style, ABV, ect.) The page will then display up to 4 beers that match the user's request.",
-    "toolsUsed": "JavaScript",
+    "toolsUsed": ["nodeJs", "html"],
     "websiteURL": "http://beernoculars.surge.sh/",
     "githubURL": "https://github.com/peterdubeau/beernoculars",
     "type": "Front End App"

@@ -3,6 +3,21 @@ import "./Projects.css";
 import projectDetails from "../assets/projectDetails.json";
 
 export default function Projects() {
+  const icons = {
+    ruby: "https://res.cloudinary.com/dyrvlnond/image/upload/v1620742015/portfolio/tool-icons/B%20and%20W/Ruby_oanb34.png",
+    wordpress:
+      "https://res.cloudinary.com/dyrvlnond/image/upload/v1621013448/portfolio/tool-icons/wordpress_ozcxr2.png",
+    html: "https://res.cloudinary.com/dyrvlnond/image/upload/v1620742015/portfolio/tool-icons/B%20and%20W/html-solid_zz3hsz.png",
+    nodeJs:
+      "https://res.cloudinary.com/dyrvlnond/image/upload/v1620742015/portfolio/tool-icons/B%20and%20W/nodejs-icon-1_pcpsvm.png",
+    react:
+      "https://res.cloudinary.com/dyrvlnond/image/upload/v1620742015/portfolio/tool-icons/B%20and%20W/react_ekh4rj.png",
+    heroku:
+      "https://res.cloudinary.com/dyrvlnond/image/upload/v1620742015/portfolio/tool-icons/B%20and%20W/heroku_jfqe3e.png"
+  };
+
+  console.log(icons["ruby"]);
+
   return (
     <article className="card-container" id="card-list">
       {projectDetails.map((project) => (
@@ -14,7 +29,28 @@ export default function Projects() {
                 {project.title}
                 <img className="project-image" src={project.imageURL} />
               </h2>
-              <p className="project-type">{project.type}</p>
+              <p className="project-type">
+                {project.type}
+                <div className="icon-container">
+                  {project.toolsUsed.map((proj) => {
+                    return (
+                      <img
+                        src={icons[proj]}
+                        style={
+                          proj === "ruby" ||
+                          proj === "nodeJs" ||
+                          proj === "wordpress" ||
+                          proj === "heroku" ||
+                          proj === "html"
+                            ? { filter: "invert(100%)" }
+                            : {}
+                        }
+                        className="skill-icon"
+                      />
+                    );
+                  })}
+                </div>
+              </p>
               <p className="project-description">
                 {project.description}
                 {project.title === "Ordo Nomina" ? (
