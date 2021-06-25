@@ -6,7 +6,7 @@
     "description": "Telemelt is a web-based multi-emulator (RetroArch/libretro) designed to recreate the experience of playing console games with a single controller in a room full of friends.",
     "toolsUsed": ["react", "nodeJs", "ruby", "Websockets"],
     "websiteURL": "https://telemelt.com/",
-    "type": "Collaboration with Batlab Electronics"
+    "type": "Created at Batlab Electronics"
   },
   {
     "title": "Ordo Nomina",
